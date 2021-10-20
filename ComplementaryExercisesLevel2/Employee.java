@@ -15,15 +15,12 @@ public class Employee {
         this.workedHours = workedHours;
         this.valuePerHour = valuePerHour;
     }
-
     public int getDni() {
         return this.dni;
     }
-
     public int getWorkedHours() {
         return this.workedHours;
     }
-
     public int getValuePerHour() {
         return this.valuePerHour;
     }

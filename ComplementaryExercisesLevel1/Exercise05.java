@@ -4,10 +4,12 @@ public class Exercise05 {
     
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
-        scan.close();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first number for successive sums: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter second number for successive sums: ");
+        int num2 = scanner.nextInt();
+        scanner.close();
         int sum = 0;
 
         for (int i = 1; i <= num2; i++) {

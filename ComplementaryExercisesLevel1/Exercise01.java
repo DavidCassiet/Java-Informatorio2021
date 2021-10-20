@@ -7,7 +7,6 @@ public class Exercise01 {
         Scanner scanner = new Scanner(System.in);
         String username = scanner.nextLine();
         scanner.close();
-
         System.out.println("Hello " + username);
     }
 }

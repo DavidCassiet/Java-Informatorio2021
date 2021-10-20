@@ -6,15 +6,13 @@ public class Exercise07 {
 
         System.out.println(fizzBuzzFunction(1, 6));
         System.out.println(fizzBuzzFunction(1, 8));
-
     }
 
     public static ArrayList<String> fizzBuzzFunction(int comienzo, int fin) {
         ArrayList<String> arrayResult = new ArrayList<String>();
         for( int i = comienzo; i <= fin -1; i++ ) {
             if ((i % 2 == 0 ) && (i % 3 == 0 )) {
-                arrayResult.add("FizzBuzz");
-                
+                arrayResult.add("FizzBuzz");  
             } 
             else if (i % 2 == 0 ) {
                 arrayResult.add("Fizz");

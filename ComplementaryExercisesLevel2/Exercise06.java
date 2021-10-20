@@ -21,5 +21,4 @@ public class Exercise06 {
         }
         System.out.println(mapEmployees);
     }
-    
 }

@@ -4,15 +4,18 @@ public class Exercise04 {
     
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-        scan.close();
-        int fact = 1;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter number for factorial: ");
+        int number = scanner.nextInt();
+        scanner.close();
+        System.out.println("The factorial of " + number + " is: " + factorial(number));
+    }
 
-        for (int i = 1; i <= num; i++) {
-            fact = fact * i;
+    public static Integer factorial(Integer number) { 
+        if(number == 1) {
+            return number;
+        } else { 
+            return (number * factorial(number -1));
         }
-        System.out.println("The factorial of " + num + " is: " + fact);
-        
     }
 }

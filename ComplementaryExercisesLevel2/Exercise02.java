@@ -6,7 +6,6 @@ public class Exercise02 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
         ArrayList<Integer> list = new ArrayList<Integer>();
         int sizeb = 0;
 
@@ -16,7 +15,6 @@ public class Exercise02 {
             list.add(number);
             sizeb++;
         }
-
         System.out.print("Enter beginning number: ");
         int numberb = scanner.nextInt();
         list.add(0, numberb);
@@ -27,11 +25,8 @@ public class Exercise02 {
         for (int element : list) {
             System.out.println(element);
         }
-
         scanner.close();
         int sizea = sizeb + 2;
-
         System.out.println("Size before: " + sizeb + ", size after: " + sizea);
     }
-    
 }
