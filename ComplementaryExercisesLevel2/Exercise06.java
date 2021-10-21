@@ -10,10 +10,7 @@ public class Exercise06 {
         
         Set<Employee> setEmployees = new HashSet<Employee>();
         Map<Integer, Integer> mapEmployees = new HashMap<Integer, Integer>();
-        setEmployees.add(employee1);
-        setEmployees.add(employee2);
-        setEmployees.add(employee3);
-        setEmployees.add(employee4);
+        setEmployees.add(employee1); setEmployees.add(employee2); setEmployees.add(employee3); setEmployees.add(employee4);
 
         for(Employee employee:setEmployees) {
             int value = employee.getWorkedHours() * employee.getValuePerHour();

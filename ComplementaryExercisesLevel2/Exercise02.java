@@ -15,17 +15,12 @@ public class Exercise02 {
             list.add(number);
             sizeb++;
         }
-        System.out.print("Enter beginning number: ");
-        int numberb = scanner.nextInt();
-        list.add(0, numberb);
-        System.out.print("Enter end number: ");
-        int numbere = scanner.nextInt();
-        list.add(sizeb + 1, numbere);
+        System.out.print("Enter beginning number: "); int numberb = scanner.nextInt(); list.add(0, numberb);
+        System.out.print("Enter end number: "); int numbere = scanner.nextInt(); list.add(sizeb + 1, numbere); scanner.close();
 
         for (int element : list) {
             System.out.println(element);
         }
-        scanner.close();
         int sizea = sizeb + 2;
         System.out.println("Size before: " + sizeb + ", size after: " + sizea);
     }

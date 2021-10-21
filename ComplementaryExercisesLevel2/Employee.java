@@ -2,11 +2,9 @@
 
 public class Employee {
 
-    private String name;
-    private String lastName;
+    private String name; private String lastName;
     private int dni;
-    private int workedHours;
-    private int valuePerHour;
+    private int workedHours; private int valuePerHour;
 
     public Employee(String name, String lastName, int dni, int workedHours, int valuePerHour) {
         this.name = name;
