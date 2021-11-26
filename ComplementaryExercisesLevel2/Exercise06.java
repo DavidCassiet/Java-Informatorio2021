@@ -17,5 +17,11 @@ public class Exercise06 {
             mapEmployees.put(employee.getDni(), value);
         }
         System.out.println(mapEmployees);
+
+        // setEmployees.forEach(employee -> {
+        //     int value = employee.getWorkedHours() * employee.getValuePerHour();
+        //     mapEmployees.put(employee.getDni(), value);
+        // });
+        // System.out.println(mapEmployees);
     }
 }
