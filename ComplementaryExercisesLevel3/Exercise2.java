@@ -4,7 +4,6 @@ import java.util.stream.Collectors;
 
 public class Exercise2 {
     public static void main(String[] args) {
-
         List<Integer> numbers = new ArrayList<>();
             numbers.add(1);
             numbers.add(2);

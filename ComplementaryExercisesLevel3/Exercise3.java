@@ -4,7 +4,6 @@ import java.util.stream.Collectors;
 
 public class Exercise3 {
     public static void main(String[] args) {
-
         List<String> words = new ArrayList<>();
             words.add("Batman");
             words.add("Aquaman");
